@@ -72,7 +72,8 @@ public class QuizServiceImpl implements QuizService
     }
 
 
-    //submit quiz implemented
+    //submit quiz method
+    //submit quiz method
     @Override
     public String submitQuiz(List<Quizrequest> request, int quizId) {
 
