@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-//Feign client Question service 
+//Feign client Question service
 @FeignClient("QUESTION-SERVICE")
 public interface QuestionInterface
 {
-    //get questions api
+    //get questions api url will change...
     @GetMapping("/questions/getQuestions")
     public ResponseEntity<List<Integer>> getQuestionList(@RequestParam(name = "noofque") int noofque,
                                                          @RequestParam(name = "category")String category);
