@@ -11,7 +11,7 @@ public interface QuizService
     //save quiz method
     String saveQuiz(int noofque,String quizName, String category);
 
-    //get quiz question by quiz id
+    //get quiz question by quiz id method
     List<QuizQuestionDto> getQuizQuestion(int quizId);
 
     //submit quiz

@@ -45,7 +45,7 @@ public class QuizServiceImpl implements QuizService
         return "Quiz is created";
     }
 
-    //get quiz question with id
+    //get quiz question with id method
     @Override
     public List<QuizQuestionDto> getQuizQuestion(int quizId) {
 

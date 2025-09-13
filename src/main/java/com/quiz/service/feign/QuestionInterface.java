@@ -19,7 +19,7 @@ public interface QuestionInterface
     @GetMapping("/questions/getQuestions")
     public ResponseEntity<List<Integer>> getQuestionList(@RequestParam(name = "noofque") int noofque,
                                                          @RequestParam(name = "category")String category);
-    //getquestions by id .
+    //getquestions by id api
     //use requestparam for getmapping and requestbody for postmapping
     @PostMapping("/questions/getQuestionsByQuestionId")
     public ResponseEntity<List<QuizQuestionDto>> getQuestionByQUeId(@RequestBody List<Integer> queId);
