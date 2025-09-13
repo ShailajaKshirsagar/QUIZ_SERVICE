@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface QuizService
 {
-    //save quizs
+    //save quiz method
     String saveQuiz(int noofque,String quizName, String category);
 
     //get quiz question by quiz id

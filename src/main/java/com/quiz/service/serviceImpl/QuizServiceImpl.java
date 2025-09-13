@@ -24,7 +24,7 @@ public class QuizServiceImpl implements QuizService
     @Autowired
     private QuestionInterface questionInterface;
 
-    //save quiz with title ,noofque , category
+    //save quiz with title ,noofque , categorybmodified
     @Override
     public String saveQuiz(int noofque, String quizName, String category) {
 

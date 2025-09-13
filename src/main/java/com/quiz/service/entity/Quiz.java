@@ -18,5 +18,6 @@ public class Quiz
     private String title;
 
     @ElementCollection
+    //annotation
     private List<Integer> questionsList;
 }

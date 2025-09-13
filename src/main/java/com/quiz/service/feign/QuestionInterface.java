@@ -15,7 +15,7 @@ import java.util.List;
 @FeignClient("QUESTION-SERVICE")
 public interface QuestionInterface
 {
-    //get questions
+    //get questions api
     @GetMapping("/questions/getQuestions")
     public ResponseEntity<List<Integer>> getQuestionList(@RequestParam(name = "noofque") int noofque,
                                                          @RequestParam(name = "category")String category);
